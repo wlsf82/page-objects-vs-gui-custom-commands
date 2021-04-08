@@ -1,0 +1,21 @@
+{
+  "name": "page-objects-vs-gui-custom-commands",
+  "version": "1.0.0",
+  "description": "Project to demonstrate page objects and GUI custom commands with Cypress.io",
+  "scripts": {
+    "docker:run": "docker run --name mattermost-preview -d --publish 8065:8065 --add-host dockerhost:127.0.0.1 mattermost/mattermost-preview",
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "Mattermost",
+    "Cypress.io",
+    "GUI custom commands vs Page Objects"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^7.0.1",
+    "faker": "^5.5.2"
+  }
+}
