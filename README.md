@@ -6,7 +6,7 @@ The application under test is [**Mattermost Preview Mode**](https://github.com/m
 
 ## Installation
 
-Here you will find instructions for installing the **dev dependencies**, besides the instalation of the application under test (**dev environment**).
+Here you will find instructions for installing the **dev dependencies**, besides the installation of the application under test (**dev environment**).
 
 ### Dev Dependencies
 
